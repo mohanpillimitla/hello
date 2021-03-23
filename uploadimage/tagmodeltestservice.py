@@ -7,8 +7,6 @@ import pandas as pd
 from keras.models import model_from_json
 from django.core.files.storage import default_storage
 from django.conf import settings
-import tensorflow.compat.v1 as tf
-tf.disable_v2_behavior()
 
 
 def load_model_and_pretrained_weights():
