@@ -29,7 +29,7 @@ def load_model_and_pretrained_weights():
 def predict(file):
     file_name = default_storage.save(file.name, file)
     file_url = default_storage.url(file_name)
-    test_image = image.load_img('/home/mohan/venv/imagetag'+file_url, target_size=(64, 64))
+    test_image = image.load_img(os.getcwd()+file_url, target_size=(64, 64))
     test_image = image.img_to_array(test_image)
     test_image = np.expand_dims(test_image, axis=0)
     loaded_model = load_model_and_pretrained_weights()
