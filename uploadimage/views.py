@@ -4,6 +4,7 @@ from django.shortcuts import render
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from .serializers import UploadSerializer
+from .tagmodeltestservice import predict
 
 # ViewSets define the view behavior.
 
@@ -16,10 +17,7 @@ class UploadViewSet(ViewSet):
 
     def create(self, request):
         file_uploaded = request.FILES.get('file_uploaded')
-        if file_uploaded:
-            content_type = file_uploaded.content_type
-            response = "POST API and you have uploaded a {} file".format(
-                content_type)
-            return Response(response)
+        if file_uploaded: 
+            return Response(predict(file_uploaded))
         else:
             raise NotImplementedError
