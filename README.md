@@ -5,3 +5,5 @@ we will create our dataset by running the script.
 please check wiki for installation and training the model
 
 check the detailed explanation in  https://github.com/mohanpillimitla/hello/wiki
+
+The jupyternotebook in which the model is trained https://github.com/mohanpillimitla/hello/blob/master/uploadimage/model.ipynb
