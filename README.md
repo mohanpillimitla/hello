@@ -4,4 +4,4 @@ The dataset used for this model is fashion dataset which have all the images sto
 we will create our dataset by running the script.
 please check wiki for installation and training the model
 
-check the detailed implemenation in  https://github.com/mohanpillimitla/hello/wiki
+check the detailed explanation in  https://github.com/mohanpillimitla/hello/wiki
