@@ -9,6 +9,6 @@ check the detailed explanation in  https://github.com/mohanpillimitla/hello/wiki
 
 The jupyternotebook in which the model is trained https://github.com/mohanpillimitla/hello/blob/master/uploadimage/model.ipynb
 
-you can train the model again by opening in the above model.ipynb in collab and tune the hyperparameters
+you can train the model again by opening in the above model.ipynb in google collab and tune the hyperparameters
 
 
